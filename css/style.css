@@ -1,24 +1,24 @@
 body {
-  font-family: Verdana;
-  font-size: 1.5em;
-}
+  font: Verdana, 1.5em; }
 
 #team-members {
-  clear: both;
-}
+  clear: both; }
+  #team-members .member {
+    float: left;
+    /*border: 2px solid gray;*/
+    margin: 10px;
+    padding: 6px; }
+    #team-members .member img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 2px solid gray;
+      box-shadow: 0 0 32px rgba(0, 0, 0, 0.8);
+      -webkit-filter: hue-rotate(180deg) blur(5px);
+      transition: 1.0s ease-in-out; }
+    #team-members .member img:hover {
+      -webkit-filter: hue-rotate(0deg) blur(0px); }
+    #team-members .member div.name {
+      text-align: center; }
 
-#team-members .member {
-  float: left;
-  /*border: 1px solid gray;*/
-  margin: 10px;
-  padding: 6px;
-}
-
-#team-members .member img {
-  width: 200px;
-  height: 200px;
-}
-
-#team-members .member div.name {
-  text-align: center;  
-}
+/*# sourceMappingURL=style.css.map */
